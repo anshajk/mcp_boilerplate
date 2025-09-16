@@ -21,7 +21,7 @@ def multiply(a: int, b: int) -> int:
 @mcp.tool()
 def compound_interest(
     principal: float, annual_rate: float, times_per_year: int, years: float
-) -> float:
+) -> dict:
     """Calculate compound interest using the formula A = P * (1 + r/n)^(n*t).
 
     Args:

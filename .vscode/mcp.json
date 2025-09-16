@@ -6,6 +6,10 @@
 			"args": [
 				"basic_server/server.py"
 			]
+		},
+		"github": {
+			"type": "http",
+			"url": "https://api.githubcopilot.com/mcp/"
 		}
 	},
 	"inputs": []
