@@ -1,0 +1,12 @@
+{
+	"servers": {
+		"basic_mcp_server": {
+			"type": "stdio",
+            "command": ".venv/bin/python",
+			"args": [
+				"basic_server/server.py"
+			]
+		}
+	},
+	"inputs": []
+}
