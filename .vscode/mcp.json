@@ -10,7 +10,15 @@
 		"github": {
 			"type": "http",
 			"url": "https://api.githubcopilot.com/mcp/"
-		}
+		},
+        "atlassian-mcp-server": {
+            "url": "https://mcp.atlassian.com/v1/sse",
+            "type": "http"
+        },
+        "Neon": {
+            "command": "npx",
+            "args": ["-y", "mcp-remote", "https://mcp.neon.tech/mcp"]
+    }
 	},
 	"inputs": []
 }
