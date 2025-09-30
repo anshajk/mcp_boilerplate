@@ -2,6 +2,11 @@
 
 This repository contains the code to demonstrate MCP capabilities
 
+[![Build Status](https://github.com/anshajk/mcp_boilerplate/actions/workflows/api-tests.yml/badge.svg)](https://github.com/anshajk/mcp_boilerplate/actions/workflows/api-tests.yml)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.115.0-009688.svg)](https://fastapi.tiangolo.com)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
 ## Setup instructions 
 
 1. Install python. The repository assumes you have `python 3.12` installed and available on your system. To check write `python3 --version` on your terminal

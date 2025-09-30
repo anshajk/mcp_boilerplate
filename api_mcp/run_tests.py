@@ -3,6 +3,7 @@
 Test runner script for the E-Commerce API
 """
 import sys
+
 import pytest
 
 if __name__ == "__main__":

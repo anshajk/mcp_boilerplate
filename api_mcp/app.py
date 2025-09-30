@@ -1,8 +1,9 @@
-from fastapi import FastAPI, HTTPException, Query, status
-from pydantic import BaseModel, EmailStr, Field
-from typing import Optional, List
 from datetime import datetime
 from enum import Enum
+from typing import List, Optional
+
+from fastapi import FastAPI, HTTPException, Query, status
+from pydantic import BaseModel, EmailStr, Field
 
 app = FastAPI(
     title="E-Commerce API",

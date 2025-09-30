@@ -1,6 +1,6 @@
 import pytest
+from app import app, customers_db, orders_db, products_db, shopping_carts
 from fastapi.testclient import TestClient
-from app import app, products_db, customers_db, orders_db, shopping_carts
 
 # Create test client
 client = TestClient(app)
