@@ -18,6 +18,11 @@
         "Neon": {
             "command": "npx",
             "args": ["-y", "mcp-remote", "https://mcp.neon.tech/mcp"]
+    	},
+		"RemoteGcp": {
+            "type": "http",
+			"url": "http://localhost:8080/mcp"
+            
     	}
 	},
 	"inputs": []
