@@ -1,0 +1,10 @@
+[project]
+name = "api_mcp"
+version = "0.1.0"
+description = "Example of deploying an MCP server on top of APIs"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.118.0",
+    "pydantic[email]>=2.11.9",
+    "uvicorn[standard]>=0.37.0",
+]

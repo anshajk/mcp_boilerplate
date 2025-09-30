@@ -53,4 +53,5 @@ Feel free to create new tools and experiment.
 ## FAQ
 
 1. FastMCP vs MCP Python SDK.[Read this issue for more info](https://github.com/modelcontextprotocol/python-sdk/issues/1068) but generally FastMCP is much more preferred by developers and you'll be able to build much more capabilties with the same. 
+2. [Stop converting your REST APIs to MCP](https://www.jlowin.dev/blog/stop-converting-rest-apis-to-mcp)
 

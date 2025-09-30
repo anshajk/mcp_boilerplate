@@ -1,0 +1,11 @@
+# Development dependencies for code quality and testing
+black==24.8.0
+isort==5.13.2
+flake8==7.1.1
+bandit==1.7.9
+safety==3.2.7
+pytest-cov==5.0.0
+
+# Optional: Additional code quality tools
+pylint==3.2.7
+mypy==1.11.2

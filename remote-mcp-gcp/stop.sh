@@ -1,0 +1,1 @@
+gcloud run services delete mcp-server --region=us-central1
