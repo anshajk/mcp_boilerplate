@@ -86,23 +86,20 @@ pytest test_app.py::test_your_new_feature -v
 ### 5. Format Your Code
 
 ```bash
-# Auto-format with Black
-black .
+# Auto-format with Black (line length: 127)
+black  .
 
 # Sort imports
-isort .
+isort  .
 
 # Check formatting (without modifying)
-black --check .
-isort --check-only .
+black --check --diff  .
+isort --check-only --diff  .
 ```
 
-### 6. Lint Your Code
+### 6. Run Security Checks
 
 ```bash
-# Run flake8
-flake8 . --max-line-length=127
-
 # Run security check
 bandit -r . -ll
 ```
@@ -149,8 +146,8 @@ Then create a Pull Request on GitHub.
 ### Code Style
 
 - **Formatter:** Black (line length: 127)
-- **Import sorting:** isort (profile: black)
-- **Linting:** flake8
+- **Import sorting:** isort (profile: black, line length: 127)
+- **Security:** Bandit for security scanning
 - **Type hints:** Encouraged for function signatures
 
 ### Documentation
@@ -165,9 +162,9 @@ Then create a Pull Request on GitHub.
 ### Before Submitting
 
 ✅ All tests pass locally  
-✅ Code is formatted with Black  
+✅ Code is formatted with Black (line length: 127)  
 ✅ Imports are sorted with isort  
-✅ No linting errors from flake8  
+✅ Security scan passes (Bandit)  
 ✅ Coverage is maintained or improved  
 ✅ Documentation is updated  
 ✅ Commit messages are clear  

@@ -117,8 +117,8 @@ For detailed test documentation, see [TEST_COVERAGE.md](TEST_COVERAGE.md)
 This project uses GitHub Actions for continuous integration and testing. The workflow automatically:
 
 - ✅ Runs tests on Python 3.10, 3.11, and 3.12
-- ✅ Performs code linting with flake8
-- ✅ Checks code formatting with Black and isort
+- ✅ Checks code formatting with Black (line length: 127)
+- ✅ Validates import sorting with isort
 - ✅ Generates test coverage reports
 - ✅ Runs security scans with Bandit
 - ✅ Checks dependencies for vulnerabilities with Safety
@@ -136,14 +136,15 @@ To run the same checks locally before pushing:
 
 ```bash
 # Install dev dependencies
-pip install black isort flake8 bandit safety pytest-cov
+pip install black isort bandit safety pytest-cov
 
-# Format code
-black .
-isort .
+# Format code (auto-fix)
+black  .
+isort  .
 
-# Lint
-flake8 . --max-line-length=127
+# Check formatting (no changes)
+black --check --diff  .
+isort --check-only --diff  .
 
 # Security scan
 bandit -r .
