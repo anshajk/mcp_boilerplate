@@ -23,7 +23,11 @@
             "type": "http",
 			"url": "http://localhost:8080/mcp"
             
-    	}
+    	},
+		"ApiMcp" : {
+			"type" : "http",
+			"url": "http://localhost:8020/mcp"
+		}
 	},
 	"inputs": []
 }
