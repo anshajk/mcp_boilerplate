@@ -9,8 +9,7 @@ This repository contains the code to demonstrate MCP capabilities
 
 ## Setup instructions 
 
-1. Install python. The repository assumes you have `python 3.12` installed and available on your system. To check write `python3 --version` on your terminal
-2. Create a virtual environment and setup dependencies
+–2. Create a virtual environment and setup dependencies
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate 
